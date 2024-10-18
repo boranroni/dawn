@@ -6,7 +6,7 @@ const CONFIG = new Config({
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Istanbul, Turkey',
     scale: 'C'
   },
   clock: {
@@ -26,39 +26,33 @@ const CONFIG = new Config({
     "t": 'todo-list',
     "s": 'search-bar'
   },
-  disabled: [],
+  disabled: ['crypto'],
   openLastVisitedTab: false,
   tabs: [
     {
-      name: 'boards',
+      name: 'School',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
-        name: 'fun',
+        name: 'Sites',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            url: 'https://obs.yeditepe.edu.tr/',
+            name: '/obs/'
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
-            icon: 'leaf',
-            icon_color: '#64876d'
+            name: '/yulr/',
+            url: 'https://yulearn.yeditepe.edu.tr/login/index.php',
+            icon: 'mountain',
+            icon_color: '#4957F2'
           },
           {
             name: '/lit/',
-            url: 'https://4chan.org/lit/',
-            icon: 'book'
+            url: 'https://calendar.google.com/',
+            icon: 'calendar-clock'
           },
           {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
-          },
-          {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
+            name: '/imgSearch/',
+            url: 'https://images.google.com/',
             icon: 'camera'
           }
         ]
@@ -68,36 +62,33 @@ const CONFIG = new Config({
         links: [
           {
             name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            url: 'https://www.youtube.com/@LofiGirl/streams'
           },
-          {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
-          }
         ]
       },
       {
         name: 'Technology',
         links: [
           {
-            name: '/g/',
-            url: 'https://4chan.org/g/',
+            name: '/mDoc/',
+            url: 'https://www.mathworks.com/help/matlab/',
           },
           {
-            name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
+            name: '/Docs/',
+            url: 'https://docs.google.com/'
           },
           {
             name: '/λ/',
-            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
+            url: 'https://www.gmail.com',
+            icon: 'mail'
           },
           {
-            name: '/sec/',
-            url: 'https://www.lainchan.org/sec/catalog.html'
+            name: '/calc/',
+            url: 'https://www.symbolab.com/'
           },
           {
             name: '/prog/',
-            url: 'https://boards.420chan.org/prog/',
+            url: 'https://www.programiz.com/python-programming/online-compiler/',
             icon: 'code'
           }
         ]
