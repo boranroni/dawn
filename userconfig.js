@@ -21,7 +21,7 @@ const CONFIG = new Config({
       "t": 'todo-list',
       "s": 'search-bar'
     },
-    disabled: ['crypto'],
+    disabled: ['crypto-rate'],
     openLastVisitedTab: false,
     tabs: [
       {
